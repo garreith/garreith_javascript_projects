@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.data {
+  font-size: 1.5em;
+  position: relative;
+  right: 75px;
+}
+
+.inputName {
+  width: 185px;
+  position: relative;
+  left: 7px;
+}
+
+.name {
+  position: relative;
+  right: 53px;
+}
+
+.dob {
+  position: relative; 
+  left: 55px
+}
+
+.DOB {
+  position: relative;
+  left: 7px;
+}
+
+.gender {
+  position: relative;
+  right: 25px;
+}
+
+.contact {
+  font-size: 1.5em;
+  position: relative;
+  right: 43px;
+}
+
+.inputAddress {
+  width: 300px;
+  position: relative;
+  left: 5px;
+}
+
+.address {
+  position: relative;
+  right: 115px;
+}
+
+.inputPhone {
+  width: 120px;
+  position: relative;
+  left: 5px;
+}
+
+.phone {
+  position: relative;
+  right: 62px;
+}
+
+.inputEmail {
+  width: 170px;
+  position: relative;
+  left: 5px;
+}
+
+.email {
+  position: relative;
+  right: 53px;
+}
+
+.E {
+  font-size: 1.3em;
+  position: relative;
+  right: 5px;
+}
+
+.inputEName {
+  width: 120px;
+  position: relative;
+  left: 5px;
+}
+
+.inputEPhone {
+  width: 170px;
+  position: relative;
+  left: 5px;
+}
+
+.EName {
+  position: relative;
+  right: 60px;
+}
+
+.EPhone {
+  position: relative;
+  left: 15px;
+}
+
+.courseInfo {
+  font-size: 1.5em;
+  position: relative;
+  right: 45px;
+}
+
+.course {
+  font-size: larger;
+  position: relative;
+  right: 8px;
+}
+
+.selectCourse {
+  font-size: 1.1em;
+  position: relative;
+  width: 210px;
+  left: 20px;
+}
+
+.inputCourseReason {
+  width: 305px;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  position: relative;
+  left: 5px;
+}
+
+.courseReason {
+  position: relative;
+  right: 23px;
+}
+
+.submit{
+  font-size: x-large;
+  position: relative;
+  right: 100px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.agree {
+  font-size: large;
+  position: relative;
+  right: 75px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.application {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.application h2 {
+  color: green;
+}
+
